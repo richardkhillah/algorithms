@@ -39,6 +39,6 @@ e.x. say I want to guess (1, 2). I should enter "1 2RET" where RET is the return
 
 Upon hitting RET, a hit/miss update is printed, the grid is re-printed and the
 user is repropted to "Enter a coordinate." If the user misses (doesn't hit a boat),
-the "~" at (1, 2) gets printed as a ".", representing a splash in the water. If the
-user hits a boat, then the "~" at (1, 2) get's printed as an "X". In this way, the
+the "\~" at (1, 2) gets printed as a ".", representing a splash in the water. If the
+user hits a boat, then the "\~" at (1, 2) get's printed as an "X". In this way, the
 user is able to keep track of where s/he has guessed.
