@@ -27,10 +27,6 @@ int main(){
         b.display();
         
     }while (b.unsunkShipCount() != 0);
-    
+
+    return 0;
 }
-
-
-
-
-
