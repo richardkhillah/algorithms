@@ -34,11 +34,12 @@ You can generate a faster version, by perhaps compiling as follows
 $ g++ -std=c++11 -Wall -Wextra -Werror -O2 *.cpp -o battleship
 
 Upon tying `$ ./battleship`, a 9x9 grid of ~'s is printed to the console and a prompt:
-"Enter a coordinate: " appears. Enter any two numbers 0-9 separated by a space.
-e.x. say I want to guess (1, 2). I should enter "1 2RET" where RET is the return key.
+'Enter a coordinate: ' appears. Enter any two numbers 0-9 separated by a space.
+e.x. say I want to guess (1, 2). I should enter '1 2RET' where RET is the return key.
 
 Upon hitting RET, a hit/miss update is printed, the grid is re-printed and the
 user is repropted to "Enter a coordinate." If the user misses (doesn't hit a boat),
+
 the "\~" at (1, 2) gets printed as a ".", representing a splash in the water. If the
 user hits a boat, then the "\~" at (1, 2) get's printed as an "X". In this way, the
 user is able to keep track of where s/he has guessed.
