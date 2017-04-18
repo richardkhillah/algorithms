@@ -12,7 +12,6 @@ int main(){
     b.display();
     
     int x, y;
-    char goAgain;
     
     do{
         cout << "\nEnter a coordinates: ";

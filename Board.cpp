@@ -36,8 +36,11 @@ Ship* Board::generateShipWithLength(int l) {
             // ship.
             for (int i = 2; i < l; i++) {
                 while (ships[i-2]->collidesWith(*s)) {
-                    x = rand() % (10-l);
-                    s = new Ship(point(x,y), HORIZONTAL, l);
+		  /* delete the origional ship */
+		  delete s;
+		  /* generate a new ship */
+                  x = rand() % (10-l);
+                  s = new Ship(point(x,y), HORIZONTAL, l);
                 }
             }
 
@@ -53,8 +56,11 @@ Ship* Board::generateShipWithLength(int l) {
 
             for (int i = 2; i < l; i++) {
                 while (ships[i-2]->collidesWith(*s)) {
-                    y = rand()%(10-l);
-                    s = new Ship(point(x,y), VERTICAL, l);
+		  /* delete the original ship */
+		  delete s;
+		  /* generate a new ship */
+                  y = rand()%(10-l);
+                  s = new Ship(point(x,y), VERTICAL, l);
                 }
             }
             break;
