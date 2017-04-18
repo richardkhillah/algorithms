@@ -10,10 +10,10 @@ Once you start the game, the game will continue until either you have sunk all
 the ships or you type command `C-x' to exit.
 
 ## Key:
-'~' : open water. use the x-y-axies in making your choice
-'.' : miss. upon entering a coordinate, you miss if there is no ship at the entered
+### '~' : open water. use the x-y-axies in making your choice
+### '.' : miss. upon entering a coordinate, you miss if there is no ship at the entered
       location.
-'X' : hit. If there is a ship at the x, y point you chose, then you have hit the ship.
+### 'X' : hit. If there is a ship at the x, y point you chose, then you have hit the ship.
 
 There are 4 ships:
 ship1 : length 2
