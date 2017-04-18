@@ -1,6 +1,11 @@
-/*
- *  PointCollection.cpp
- *  Battleship
+/** @file PointCollection.cpp
+ *  @brief Implementation file for prototypes declared in
+ *         PointCollection.h.
+ *
+ *  For details, refer to PointCollection.h for function descriptions.
+ *
+ *  @author Richard Khillah
+ *  @bugs No known bugs
  */
 
 #include "PointCollection.h"

@@ -1,6 +1,12 @@
-/*
- *  PointCollection.h
- *  Battleship
+/** @file PointCollection.h
+ *  @brief Class declaration for the Point Collection.
+ *
+ *  This contains the class declaration and function prototypes
+ *  for the Battleship Point Collection. The point Collection
+ *  stores the user entered coordinates during a game.
+ *
+ *  @author Richard Khillah
+ *  @bugs No known bugs
  */
 
 #ifndef POINT_COLLECTION_H

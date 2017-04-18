@@ -1,6 +1,10 @@
-/*
- *  Ship.cpp
- *  Battleship
+/** @file Ship.cpp
+ *  @brief Implementation of Ship.h.
+ *
+ *  Refer to Ship.h for function details.
+ *
+ *  @author Richard Khillah
+ *  @bugs No known bugs
  */
 
 #include "Ship.h"

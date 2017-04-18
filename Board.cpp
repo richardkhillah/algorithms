@@ -1,6 +1,10 @@
-/*
- *  Board.cpp
- *  Battleship
+/** @file Board.cpp
+ *  @brief Implementation file for Board.h.
+ *
+ *  Refer to Board.h for function descriptions.
+ *
+ *  @author Richard Khillah
+ *  @bugs No known bugs.
  */
 
 #include "Board.h"

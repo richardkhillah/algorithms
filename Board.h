@@ -1,4 +1,13 @@
-/*  Board.h might look something like this: */
+/** @file Board.h
+ *  @brief Class declaration for the Board class.
+ *
+ *  The board can be considered a 10 x 10 grid upon which
+ *  the computer generates 4 ships of distinct length and
+ *  upon which the user attempts to `sink' ships.
+ *
+ *  @author Richard Khillah
+ *  @bugs No known bugs
+ */
 
 #ifndef BOARD_H
 #define BOARD_H
