@@ -1,0 +1,12 @@
+# Battleship
+
+Play a game of battleship!
+
+It's you versus the computer. Start the executable `battleship' by running
+
+$ ./battleship
+in your terminal window.
+
+you can create an identical executable by running the command:
+
+$ g++ -std=c++11 -Wall -Wextra -Werror *.cpp -o battleship

@@ -1,0 +1,35 @@
+/*  Board.h might look something like this: */
+
+#ifndef BOARD_H
+#define BOARD_H
+
+#include "Ship.h"
+#include "Point.h"
+#include "PointCollection.h"
+#include <ctime>
+#include <cstdlib>
+#include <iostream>
+
+class Board
+{
+private:
+    char board[10][10];    // create a 2x2 array
+    Ship *ships;    // create an array of ships
+    
+public:
+    Board();    // construct a 10 x 10 board with 4 ships
+    ~Board();   // deallocate DMA
+    void createShip(); // create a ship with random number generator
+    void setShips();    // place ships onto board
+    bool containsPoint(const point& p); // check wether point entered by user is part of a ship on board
+    void updateBoard(const point&); // user inputs a point and we update board with either '.', 'O', or 'X'
+    void displayBoard();    // runs nested loop to display board from top to bottom
+    
+};
+
+#endif
+
+
+/* the board consists of a 2x2 array and has 4 ships. the member functions do what the descriptions say. */
+
+/* Comment: Upon analyzing grid writer, I will implement the grid writer instead of a 2x2 array.*/
