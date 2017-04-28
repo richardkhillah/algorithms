@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-#algorithms
-=======
 # Battleship
 
 Play a game of battleship!
@@ -45,4 +42,3 @@ user is repropted to "Enter a coordinate." If the user misses (doesn't hit a boa
 the "\~" at (1, 2) gets printed as a ".", representing a splash in the water. If the
 user hits a boat, then the "\~" at (1, 2) get's printed as an "X". In this way, the
 user is able to keep track of where s/he has guessed.
->>>>>>> Battleship/master
