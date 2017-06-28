@@ -16,7 +16,7 @@ PointCollection::PointCollection() : size(0), capacity(4)
 {
   data = new point[4];
 }
-
+
 PointCollection::PointCollection(const PointCollection &c) {
   *this = c;
 }

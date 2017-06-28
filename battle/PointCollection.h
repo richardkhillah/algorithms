@@ -22,12 +22,19 @@ private:
   point* data;
 
   void doubleArraySize();
-
+
 public:
   /* default constructor */
   PointCollection();
-  /* copy constructor */
+  
+  /* copy constructor
+  ** @brief Take a (possibly NULL) PointCollection and assign this
+  **        PointCollection to it.
+  ** @param c an address of a PointColleciton to copy.
+  */
+  
   PointCollection(const PointCollection& c);
+  
   /* destructor */
   ~PointCollection();
 
